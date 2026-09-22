@@ -28,6 +28,11 @@ Then visit `http://localhost:8080`.
 - `app.js` — rendering, search, filters, and detail dialog
 - `about.html` — project scope and editorial principles
 - `CONTRIBUTING.md` — contribution workflow and data guidelines
+- `bot/` — optional Discord bot for translating community messages into Vietnamese
+
+## Discord translator
+
+The companion bot supports an on-demand `/translate` command and opt-in automatic translation for selected channels. See [`bot/README.md`](bot/README.md) for the Discord invite flow, privacy considerations, and local setup.
 
 ## Content note
 
